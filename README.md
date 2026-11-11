@@ -1,4 +1,4 @@
-# NPS & Guest Feedback Platform — Case Study
+# NPS & Guest Feedback Platform: Case Study
 
 > Feedback platform I built for **Vale Verde Festas** to collect NPS from guests at events (tablet + QR codes) and from clients after the event, replacing three legacy WordPress pages.
 > **Source code is private.** This repository documents the project; a live walkthrough is available on request.
@@ -22,10 +22,10 @@ Guest and client feedback lived in three WordPress pages built with custom PHP s
 | **Results** | Filters, cards, distributions, histograms, comparisons, Excel/CSV export |
 | **Admin** | Events from the calendar, a unique QR code per event (generate, print, download, rotate) and VIP guest lists |
 
-- **Tablet-first UX** — one question per screen with no scrolling at four tablet sizes (portrait and landscape), large touch targets, nothing depends on hover or keyboard, keyboard-aware layout on iOS and Android.
+- **Tablet-first UX**: one question per screen with no scrolling at four tablet sizes (portrait and landscape), large touch targets, nothing depends on hover or keyboard, keyboard-aware layout on iOS and Android.
 - **Google review invitation** for promoters (NPS 9–10), shown as a QR code on the tablet.
 - **Anti-bot rate limits** per device and global, Argon2-hashed passwords, a separate **read-only role** for the sales team.
-- **Shared rules package** — the scoring and NPS calculations live in one package used by both the API and the web app, so numbers never diverge.
+- **Shared rules package**: the scoring and NPS calculations live in one package used by both the API and the web app, so numbers never diverge.
 
 ## Migration from WordPress
 

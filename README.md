@@ -15,12 +15,12 @@ Guest and client feedback lived in three WordPress pages built with custom PHP s
 
 ## What I built
 
-| Route | Purpose |
+| Screen | Purpose |
 |---|---|
-| `/espacos` | **Tablet at the event**: pick the date and event from the calendar, then the guest; generates a personal QR code or lets the guest answer right there |
-| `/` | **Post-event link** sent to the client |
-| `/resultados` | **Results**: filters, cards, distributions, histograms, comparisons, Excel/CSV export |
-| `/admin` | Events from the calendar, a unique QR code per event (generate, print, download, rotate) and VIP guest lists |
+| **Event tablet** | Pick the date and event from the calendar, then the guest; generates a personal QR code or lets the guest answer right there |
+| **Post-event survey** | Link sent to the client after the event |
+| **Results** | Filters, cards, distributions, histograms, comparisons, Excel/CSV export |
+| **Admin** | Events from the calendar, a unique QR code per event (generate, print, download, rotate) and VIP guest lists |
 
 - **Tablet-first UX** — one question per screen with no scrolling at four tablet sizes (portrait and landscape), large touch targets, nothing depends on hover or keyboard, keyboard-aware layout on iOS and Android.
 - **Google review invitation** for promoters (NPS 9–10), shown as a QR code on the tablet.
